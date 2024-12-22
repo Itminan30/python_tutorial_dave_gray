@@ -43,7 +43,7 @@ def rps():
                 return "🎭 Tie Game! 🎭"
             else:
                 python_wins += 1
-                print("🐍 Python Wins! 🐍")
+                return "🐍 Python Wins! 🐍"
         game_result = decide_winner(player, computer)
         print(game_result)
 

@@ -1,5 +1,5 @@
 nums = {1,2,3,4,5,6,7,8,9,10}
-nums2 = set((1,2,3,4,5,6,7,8,9,10))
+nums2 = set((19,42,32,12,5,6,7,8,9,10))
 print(nums)
 print(nums2)
 print(type(nums))
@@ -26,7 +26,7 @@ nums.update(monuments)
 print(nums)
 
 # Merge two sets
-one = {1, 2, 3}
+one = {3, 2, 1}
 two = {3, 4, 5}
 newset = one.union(two)
 print(newset)

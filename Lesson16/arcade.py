@@ -27,8 +27,6 @@ def arcade(name="playah"):
 
         if welcome_back:
             print("Welcome back, let's play again!")
-        else:
-            print(f"🤖 {name}, welcome to the Arcade 🤖")
 
         print(f"Please, choose a game:")
         print(f"1 = Rock Paper Scissors")
@@ -50,7 +48,8 @@ def arcade(name="playah"):
             play_guess_number = guess_number(name)
             play_guess_number()
         else:
-            return
+            print(f"See you next time!!!")
+            sys.exit(f"👋👋👋 Bye {name} 👋👋👋")
 
         print(f"🎉🎊🎉 Thank you for playing 🎉🎊🎉")
         print(f"Play again, {name}?")
@@ -83,7 +82,10 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     arcade_game = arcade(args.name)
+    print(f"🤖 {args.name}, welcome to the Arcade 🤖")
     arcade_game()
+
+
 
 
 

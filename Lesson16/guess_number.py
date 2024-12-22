@@ -47,7 +47,7 @@ def guess_number(name="Player"):
 
         print(f"Play again, {name}?")
         while True:
-            again_choice = input(f"Y for Yes or N for No\n")
+            again_choice = input(f"y for Yes or n for No\n")
             if again_choice not in ["y", "Y", 'n', 'N']:
                 print(f"{name}, please choose from 'y' or 'n'")
                 continue

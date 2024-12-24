@@ -1,0 +1,13 @@
+python -m venv .venv ======> start a venv environment in a project
+.\.venv\Scripts\activate ======> activate venv environment named .venv
+deactivate ======> deactivate venv environment
+
+install a dependency ======> python.exe -m pip install dependency_name
+pip show dependency_name ======> shows the details about a dependency
+pip freeze > requirements.txt ======> creates a requirements file for the virtual environment
+
+
+
+// Dependencies used:
+1. requests
+2. python-dotenv
